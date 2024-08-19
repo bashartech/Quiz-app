@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-wrapper">
+        <h1>Interactive Quiz Application</h1>
+        
+        <!-- Quiz 1 -->
+            <div class="quiz-question question-1" >1. What does HTML stand for?
+            <div class="quiz-options" >
+                <label ><input type="radio" name="q1" id="Correct1" value ="A"> A. Hyper Text Markup Language</label>
+                <label><input type="radio" name="q1" value="B"> B. Home Tool Markup Language</label>
+                <label><input type="radio" name="q1" value="C"> C. Hyperlinks and Text Markup Language</label>
+                <label><input type="radio" name="q1" value="D"> D. None of the above</label>
+            </div>
+        </div>
+        
+        <!-- Quiz 2 -->
+            <div class="quiz-question question-2" >2. What does CSS stand for?
+            <div class="quiz-options" >
+                <label><input type="radio" name="q2" id="Correct2" value="A"> A. Cascading Style Sheets</label>
+                <label><input type="radio" name="q2" value="B"> B. Colorful Style Sheets</label>
+                <label><input type="radio" name="q2" value="C"> C. Creative Style Sheets</label>
+                <label><input type="radio" name="q2"  value="D"> D. Computer Style Sheets</label>
+            </div>
+        </div>
+
+        <!-- Quiz 3 -->
+        
+            <div class="quiz-question question-3" data-question = "q3">3. Who invented JavaScript?
+            <div class="quiz-options" >
+                <label><input type="radio" name="q3" id="Correct3" value="A"> A. Douglas Crockford</label>
+                <label><input type="radio" name="q3" id="incorrect" value="B"> B. Sheryl Sandberg</label>
+                <label><input type="radio" name="q3"id="incorrect" value="C"> C. Brendan Eich</label>
+                <label><input type="radio" name="q3"id="incorrect" value="D"> D. Tim Berners-Lee</label>
+            </div>
+        </div> 
+
+        <!-- Quiz 4 -->
+            <div class="quiz-question question-4" data-question = "q4">4. What does DOM stand for?
+            <div class="quiz-options" >
+                <label><input type="radio" name="q4" id="Correct4" value="A"> A. Document Object Model</label>
+                <label><input type="radio" name="q4" id="incorrect" value="B"> B. Data Object Model</label>
+                <label><input type="radio" name="q4" id="incorrect" value="C"> C. Document Order Model</label>
+                <label><input type="radio" name="q4" id="incorrect" value="D"> D. Data Order Model</label>
+            </div>
+        </div> 
+
+        <!-- Quiz 5 -->
+        
+            <div class="quiz-question question-5"  data-question = "q5">5. What is the purpose of the <code>&lt;head&gt;</code> tag?
+            <div class="quiz-options">
+                <label><input type="radio" name="q5" id="A" value="A"> A. To contain metadata about the document</label>
+                <label><input type="radio" name="q5"id="Correct5" value="B"> B. To define the main content of the page</label>
+                <label><input type="radio" name="q5"id="incorrect" value="C"> C. To display the title of the document</label>
+                <label><input type="radio" name="q5"id="incorrect" value="D"> D. To create a header for the document</label>
+            </div>
+        </div>
+
+       
+
+        <button class="quiz-submit">Submit All Answers</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
